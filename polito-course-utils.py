@@ -18,7 +18,7 @@ def main():
         os.makedirs(directory_path)
 
         # Create "Prima Consegna" and "Seconda Consegna" folders inside each numbered directory
-        os.makedirs(os.path.join(directory_path, "Prima Consegna"))
-        os.makedirs(os.path.join(directory_path, "Seconda Consegna"))
+        os.makedirs(os.path.join(directory_path, "Fase-1"))
+        os.makedirs(os.path.join(directory_path, "Fase-2"))
 
 main()
